@@ -5,8 +5,8 @@ export default {
   route,
   routes: [
     {
-      tagname: 'live-chat-ui-main',
-      page: 'live-chat-ui-main'
+      tagname: 'live-chat',
+      page: 'live-chat'
     }
   ],
   bootstrap

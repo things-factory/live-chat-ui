@@ -1,6 +1,6 @@
 {
   "name": "@things-factory/live-chat-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist-server/index.js",
   "browser": "client/index.js",
   "things-factory": true,
@@ -23,6 +23,7 @@
     "migration:revert": "node ./node_modules/typeorm/cli.js migration:revert"
   },
   "dependencies": {
+    "@things-factory/auth-ui-jwt": "*",
     "@things-factory/layout-base": "*",
     "@things-factory/publisher-base": "*",
     "@things-factory/shell": "*"
