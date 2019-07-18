@@ -1,6 +1,7 @@
 import { store } from '@things-factory/shell'
 import { html } from 'lit-element'
-import { APPEND_APP_TOOL, TOOL_POSITION } from '@things-factory/layout-base'
+import { TOOL_POSITION } from '@things-factory/layout-base'
+import { APPEND_APP_TOOL } from '@things-factory/apptool-base'
 
 import '@material/mwc-icon/mwc-icon'
 
